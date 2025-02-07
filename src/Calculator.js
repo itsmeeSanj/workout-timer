@@ -76,7 +76,7 @@ const Calculator = memo(function Calculator({ workouts, allowSound }) {
           {mins}:{seconds < 10 && "0"}
           {seconds}
         </p>
-        <button onClick={() => {}}>+</button>
+        <button onClick={() => {}}>++</button>
       </section>
     </>
   );
